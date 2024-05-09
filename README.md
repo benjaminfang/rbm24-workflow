@@ -33,6 +33,7 @@ This repository contains codes and information to re-produce the RNA-seq and scR
 - scanpy == 1.9.6
 
 - DecontX
+
     Included in singleCellTK(the version 2.12.1 was used in our workflow).
 
 - Scrubleti == 0.2.3
