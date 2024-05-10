@@ -41,7 +41,7 @@ to contact us at shaoming@sdu.edu.cn.
 
     Included in singleCellTK(the version 2.12.1 was used in our workflow).
 
-- Scrubleti == 0.2.3
+- Scrublet == 0.2.3
 
 ## Installation
 
