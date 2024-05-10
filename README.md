@@ -74,4 +74,4 @@ your actual working path.
 
 ## Citations
 
-Yizhuang Zhang. et al. Rbm24 is an organizer component of germ plasm to determine germ cell fate. (under review)
+Yizhuang Zhang. et al. Rbm24 is an organizer component of germ plasm to determine germ cell fate. (under submission)
