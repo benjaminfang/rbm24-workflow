@@ -1,4 +1,4 @@
-# RNA-seq and scRNA-seq workflow involed in rbm24 study
+# The RNA-seq and scRNA-seq workflow involved in the rbm24 study
 
 This repository contains code and information to reproduce
 the RNA-seq and scRNA-seq analyses in our *paper* currently
@@ -56,7 +56,7 @@ can be executable directly.
 
 ### RNA-seq
 
-1. Download the RNA-seq data from NCBI(accession ID: XXX), and put it under RNA-seq/raw-data/.
+1. Download the RNA-seq data from NCBI(accession ID: XXX), and place it under RNA-seq/raw-data/.
 
 2. Change directory to RNA-seq/scripts, and edit bash scripts in the directory, changing *working_dire* to
 your actural working path.
@@ -66,7 +66,7 @@ your actural working path.
 
 ### scRNA-seq
 
-1. Download the scRNA-seq data from NCBI(accession ID: XXX), and put it under scRNA-seq/raw-data/6hpf.
+1. Download the scRNA-seq data from NCBI(accession ID: XXX), and place it under scRNA-seq/raw-data/6hpf.
 
 2. Change directory to scRNA-seq/scripts/6hpf, and changing *working_dire* to your actural working path.
 
