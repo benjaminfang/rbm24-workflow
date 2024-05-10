@@ -1,8 +1,11 @@
 # RNA-seq and scRNA-seq workflow involed in rbm24 study
 
-This repository contains codes and information to re-produce the RNA-seq and scRNA-seq analyses in our published paper.
+This repository contains code and information to reproduce
+the RNA-seq and scRNA-seq analyses in our *paper* currently
+under submission.
 
-Any inquiry or assitance needs please contact me without hizatation at benjaminfang.ol@outlook.com
+For any inquiries or assistance needed, please don't hesitate
+to contact us at shaoming@sdu.edu.cn.
 
 ## Requirements
 
@@ -42,10 +45,12 @@ Any inquiry or assitance needs please contact me without hizatation at benjaminf
 
 ## Installation
 
-All requirements need be installed. The version number list in **Requirements** is 
-the software version in our workflow, other version may works too.
+All requirements need to be installed. The version number listed in
+**Requirements** is the software version used in our workflow,
+but other versions may work as well.
 
-After the installation of requirements, The bash script can run directly.
+After the installation of the requirements, the bash script
+can be executable directly.
 
 ## Usage
 
