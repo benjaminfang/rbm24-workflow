@@ -2,6 +2,8 @@
 
 This repository contains codes and information to re-produce the RNA-seq and scRNA-seq analyses in our published paper.
 
+Any inquiry or assitance needs please contact me without hizatation at benjaminfang.ol@outlook.com
+
 ## Requirements
 
 - Python >= 3.11
@@ -40,11 +42,30 @@ This repository contains codes and information to re-produce the RNA-seq and scR
 
 ## Installation
 
-All requirements need be installed. The version number list in **Requirements** is the software version in our workflow, other version may works too.
+All requirements need be installed. The version number list in **Requirements** is 
+the software version in our workflow, other version may works too.
 
 After the installation of requirements, The bash script can run directly.
 
 ## Usage
+
+### RNA-seq
+
+1. Download the RNA-seq data from NCBI(accession ID: XXX), and put it under RNA-seq/raw-data/.
+
+2. Change directory to RNA-seq/scripts, and edit bash scripts in the directory, changing *working_dire* to
+your actural working path.
+
+3. The bash scripts should be executed in numerical order.
+
+
+### scRNA-seq
+
+1. Download the scRNA-seq data from NCBI(accession ID: XXX), and put it under scRNA-seq/raw-data/6hpf.
+
+2. Change directory to scRNA-seq/scripts/6hpf, and changing *working_dire* to your actural working path.
+
+3. Run the bash scripts in numerical order.
 
 ## Citations
 
