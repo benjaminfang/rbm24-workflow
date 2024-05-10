@@ -58,8 +58,8 @@ can be executable directly.
 
 1. Download the RNA-seq data from NCBI(accession ID: XXX), and place it under RNA-seq/raw-data/.
 
-2. Change directory to RNA-seq/scripts, and edit bash scripts in the directory, changing *working_dire* to
-your actural working path.
+2. Change directory to RNA-seq/scripts. Edit bash scripts in the directory and change *working_dire* to
+your actual working path.
 
 3. The bash scripts should be executed in numerical order.
 
@@ -68,7 +68,7 @@ your actural working path.
 
 1. Download the scRNA-seq data from NCBI(accession ID: XXX), and place it under scRNA-seq/raw-data/6hpf.
 
-2. Change directory to scRNA-seq/scripts/6hpf, and changing *working_dire* to your actural working path.
+2. Change directory to scRNA-seq/scripts/6hpf. Edit bash scripts and change *working_dire* to your actual working path.
 
 3. Run the bash scripts in numerical order.
 
