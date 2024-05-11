@@ -11,13 +11,13 @@ to contact us at shaoming@sdu.edu.cn.
 
 - Python >= 3.11
 
-- biobrary == 0.1.4
+- biobrary == 0.1.5
 
-    `pip install biobrary==0.1.4`
+    `pip install biobrary==0.1.5`
 
-- annoread == 0.1
+- annoread == 0.1.5
 
-    `pip install annoread == 0.1`
+    `pip install annoread==0.1.5`
 
 - matplotlib
 
