@@ -19,21 +19,14 @@ do
     fi
 done 
 
-countmtx \
-    --count_level gene_name\
-    --out ${count_dire}/4cell-count-mtx \
-    ${read_anno}/M-4cell-*-assigned-* \
-    ${read_anno}/Sibling-4cell-*-assigned-*
+time_point=("4cell" "sphere" "24HPF")
 
-countmtx \
-    --count_level gene_name\
-    --out ${count_dire}/sphere-count-mtx \
-    ${read_anno}/M-sphere-*-assigned-* \
-    ${read_anno}/Sibling-sphere-*-assigned-*
-
-countmtx \
-    --count_level gene_name\
-    --out ${count_dire}/24HPF-count-mtx \
-    ${read_anno}/M-24HPF-*-assigned-* \
-    ${read_anno}/Sibling-24HPF-*-assigned-*
+for point in "${time_point[@]}"
+do
+    countmtx \
+        --count_level gene_name\
+        --out ${count_dire}/${point}-count-mtx \
+        ${read_anno}/${point}-*-assigned-* \
+        ${read_anno}/Sibling-${point}-*-assigned-*
+done
 
