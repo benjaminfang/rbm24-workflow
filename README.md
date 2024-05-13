@@ -23,14 +23,6 @@ to contact us at shaoming@sdu.edu.cn.
 
 - numpy
 
-- cutadapt == 4.6
-
-- bowtie2 == 2.5.2
-
-- samtools == 1.18
-
-- DESeq2 == 1.44.0
-
 - cellranger == 7.2.0
 
 - trimmomatic == 0.39
@@ -53,16 +45,6 @@ After the installation of the requirements, the bash script
 can be executable directly.
 
 ## Usage
-
-### RNA-seq
-
-1. Download the RNA-seq data from NCBI(accession ID: XXX), and place it under RNA-seq/raw-data/.
-
-2. Change directory to RNA-seq/scripts. Edit bash scripts in the directory and change *working_dire* to
-your actual working path.
-
-3. The bash scripts should be executed in numerical order.
-
 
 ### scRNA-seq
 
